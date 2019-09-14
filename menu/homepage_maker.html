@@ -187,30 +187,31 @@
 
         </section>
 
-        <section>
-            <header>
-                <h3 id="Form">お問い合わせフォーム</h3>
-            </header>
-            <div class="content">
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2 id="From">お問い合わせフォーム</h2>
+                <p>
+                    <div class="content">
 
-                <form method="post" action="#">
-                    <div class="field half first">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" value="" />
+                        <form method="post" action="#">
+                            <div class="field half first">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" value="" />
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" value="" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="6"></textarea>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                            </ul>
+                        </form>
                     </div>
-                    <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" value="" />
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul class="actions">
-                        <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-                    </ul>
-                </form>
-
+                </p>
             </div>
         </section>
 
