@@ -94,3 +94,11 @@
 .icon-pinterest-p:before {
   content: "\f231";
 }
+.icon-github:before {
+  content: "\f09b"; /* GitHubアイコンのUnicode */
+  font-family: "Font Awesome 5 Brands"; /* Font Awesomeのフォントファミリー */
+}
+.icon-linkedin:before {
+  content: "\f0e1"; /* LinkedInアイコンのUnicode */
+  font-family: "Font Awesome 5 Brands"; /* 使用しているFont Awesomeのバージョンに合わせる */
+}
