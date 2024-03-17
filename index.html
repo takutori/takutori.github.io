@@ -26,11 +26,10 @@
 
 <body>
 
-<div class="nav nav-overlay">
-	<div class="nav__content">
-		
-	</div>
-</div>
+    <div class="nav nav-overlay">
+        <div class="nav__content">
+        </div>
+    </div>
 
 <header id="header">
 	<div id="header-wrap">
@@ -135,11 +134,10 @@
 	</div>
 </section>
 
-<section>
+<section id="career">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<hr>
 				<h3>経歴</h3>
 				<table class="u-full-width">
 				  <thead>
@@ -184,11 +182,11 @@
 </section>
 
 
-<section>
+<section id="achievements">
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<h3>実績</h3>
+				<h3>実績-DS/AI</h3>
 			</div>
 		</div>
 
@@ -273,6 +271,60 @@
 				    </div>
 				  </div>
 				</div>
+                <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingOther">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOther" aria-expanded="false" aria-controls="collapseOther">
+				        その他のPoCから運用までに至ったの実績
+				      </button>
+				    </h2>
+				    <div id="collapseOther" class="accordion-collapse collapse" aria-labelledby="headingOther">
+				      <div class="accordion-body">
+                        - 会話行動の要因分析<br>
+                        - アンケートの異常行動検知プロジェクトのマネジメント<br>
+                        - イノベーター理論を用いたPOSデータからのターゲティング<br>
+                        - 将来の病気を予測する機械学習モデルの構築<br>
+                        - 時系列異常検知の最新モデルのビジネス運用化のための実証実験
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding-large" id="skill">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>スキル</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="bootstrap-tabs">
+					<nav>
+					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+					    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Python</button>
+					    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SQL</button>
+					    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">クラウド</button>
+					  </div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+					  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        調べながらであれば、大体任意のやりことを実現できます。
+                    </div>
+					  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        MySQLを学生インターンで一年以上使用していました。正規化などの基本的なところは抑えています。
+                    </div>
+					  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        AWSのSageMakerを使用して、EC2のデータを機械学習モデルで学習することはできます。
+                    </div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -372,6 +424,57 @@
 				</div>
 
 			</div>
+
+			<div class="col-md-2">
+
+				<div class="footer-menu menu-item-02">
+					<h5>quick links</h5>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#header">home</a>
+						</li>
+						<li class="menu-item">
+							<a href="#testimonial">About me</a>
+						</li>
+						<li class="menu-item">
+							<a href="#career">Career</a>
+						</li>
+						<li class="menu-item">
+							<a href="#achievements">Achievements</a>
+						</li>
+                        <li class="menu-item">
+							<a href="#skill">Skill</a>
+						</li>
+						<li class="menu-item">
+							<a href="#latest-blog">blogs</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="col-md-4">
+
+				<div class="footer-menu menu-item-03">
+					<h5>contact info</h5>
+					<ul class="menu-list">
+                        <li class="menu-item">
+                            <i class="icon icon-twitter"></i><a href="https://twitter.com/ma_le_takutoRi">Twitter</a>
+                        </li>
+						<li class="menu-item">
+                            <i class="icon-github"></i><a href="https://github.com/takutori">　Github</a>
+                        </li>
+                        <li class="menu-item">
+                            <i class="icon icon-facebook"></i><a href="https://www.facebook.com/profile.php?id=100011672112434&locale=ja_JP">Facebook</a>
+                        </li>
+                        <li class="menu-item">
+                            <i class="icon-linkedin"></i><a href="https://www.linkedin.com/in/takutori/">　Linkedin</a>
+                        </li>
+					</ul>
+				</div>
+
+			</div>
+
 		</div>
 	</div>
 </footer>
