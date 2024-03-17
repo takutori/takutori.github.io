@@ -26,10 +26,12 @@
 
 <body>
 
-    <div class="nav nav-overlay">
-        <div class="nav__content">
-        </div>
+<!--
+<div class="nav nav-overlay">
+    <div class="nav__content">
     </div>
+</div>
+-->
 
 <header id="header">
 	<div id="header-wrap">
@@ -186,7 +188,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<h3>実績-DS/AI</h3>
+				<h3>実績</h3>
 			</div>
 		</div>
 
@@ -231,6 +233,18 @@
                                 <a href="https://www.slideshare.net/takutori/slack-data-analysis">スライド資料</a>
                             </li>
                         </ul>
+				      </div>
+				    </div>
+				  </div>
+                  <div class="accordion-item">
+				    <h2 class="accordion-header" id="heading2020-08">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2020-08" aria-expanded="false" aria-controls="collapse2020-08">
+				        2020/08　焼肉屋さんのホームページ作成
+				      </button>
+				    </h2>
+				    <div id="collapse2020-08" class="accordion-collapse collapse" aria-labelledby="heading2020-08">
+				      <div class="accordion-body">
+                        友人が働いていた焼肉屋さんのホームページをフリーのテンプレートを用いて、作成、デプロイしました。
 				      </div>
 				    </div>
 				  </div>
@@ -306,21 +320,25 @@
 
 				<div class="bootstrap-tabs">
 					<nav>
-					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-					    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Python</button>
-					    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SQL</button>
-					    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">クラウド</button>
-					  </div>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-python" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Python</button>
+					    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-sql" type="button" role="tab" aria-controls="nav-home" aria-selected="false">SQL</button>
+					    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-cloud" type="button" role="tab" aria-controls="nav-home" aria-selected="false">クラウド</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-web" type="button" role="tab" aria-controls="nav-home" aria-selected="false">Web開発</button>
+					</div>
 					</nav>
 					<div class="tab-content" id="nav-tabContent">
-					  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<div class="tab-pane fade show active" id="nav-python" role="tabpanel" aria-labelledby="nav-home-tab">
                         調べながらであれば、大体任意のやりことを実現できます。
                     </div>
-					  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+					<div class="tab-pane fade" id="nav-sql" role="tabpanel" aria-labelledby="nav-home-tab">
                         MySQLを学生インターンで一年以上使用していました。正規化などの基本的なところは抑えています。
                     </div>
-					  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+					<div class="tab-pane fade" id="nav-cloud" role="tabpanel" aria-labelledby="nav-home-tab">
                         AWSのSageMakerを使用して、EC2のデータを機械学習モデルで学習することはできます。
+                    </div>
+                    <div class="tab-pane fade" id="nav-web" role="tabpanel" aria-labelledby="nav-home-tab">
+                        フリーのテンプレートを用いて、ホームページを作成可能です。バックエンドでは、PythonのFlaskを使用します。
                     </div>
 					</div>
 				</div>
